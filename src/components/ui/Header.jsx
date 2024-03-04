@@ -53,25 +53,25 @@ const Header = () => {
           <div className="hidden lg:flex lg:gap-x-12">
             <Link
               to={"/"}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-base font-semibold leading-6 text-gray-900"
             >
               Bosh sahifa
             </Link>
             <Link
               to={"/furnitures"}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-base font-semibold leading-6 text-gray-900"
             >
               Mebellar
             </Link>
             <Link
               to={"/order"}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-base font-semibold leading-6 text-gray-900"
             >
               Buyurtmalar
             </Link>
             <Link
              to={"/contact"}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-base font-semibold leading-6 text-gray-900"
             >
               Biz bilan bog'laning
             </Link>

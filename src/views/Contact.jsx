@@ -3,19 +3,19 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <form className="w-full max-w-lg mx-auto mb-[100px]">
-        <h1 className="text-#1F2937 text-4xl mt-[60px] mb-16 font-semibold">Biz haqimizda sizning fikringiz</h1>
+      <form className="sm:w-full sm:max-w-lg px-5 sm:px-0 mx-auto mb-[100px]">
+        <h1 className="text-#1F2937 sm:text-4xl text-2xl mt-[60px] sm:mb-16 mb-8  font-semibold">Biz haqimizda sizning fikringiz</h1>
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full px-3">
             <label
-              className="block uppercase tracking-wide text-gray-700 text-sm font-bold mb-2"
-              for="grid-password"
+              className="block uppercase tracking-wide text-gray-700 sm:text-sm text-xs font-bold mb-2"
+              htmlFor="grid-password"
             >
               Ismingiz
             </label>
             <input
               className="appearance-none block transition-all w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-              id="nick"
+              id="grid-password"
               type="text"
             />
           </div>
@@ -23,8 +23,8 @@ const Contact = () => {
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full px-3">
             <label
-              className="block uppercase tracking-wide text-gray-700 text-sm font-bold mb-2"
-              for="grid-password"
+              className="block uppercase tracking-wide text-gray-700 sm:text-sm text-xs font-bold mb-2"
+              htmlFor="email"
             >
               E-mail
             </label>
@@ -38,8 +38,8 @@ const Contact = () => {
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full px-3">
             <label
-              className="block uppercase tracking-wide text-gray-700 text-sm font-bold mb-2"
-              for="grid-password"
+              className="block uppercase tracking-wide text-gray-700 sm:text-sm text-xs font-bold mb-2"
+              htmlFor="message"
             >
               Fikr-mulohazalaringizni shu yerga qoldiring...
             </label>

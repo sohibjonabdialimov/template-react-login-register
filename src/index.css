@@ -78,3 +78,25 @@
   grid-area: i12;
   width: 100%;
 }
+@media (max-width: 640px) {
+  .gallery{ 
+    gap: 5px;
+    grid-template-areas: "i1 i1 i2 i2 i2 i2 i2 i3 i3 i3 i3 i3"
+    "i4 i4 i4 i4 i4 i5 i5 i5 i5 i5 i6 i6"
+    "i7 i7 i8 i8 i8 i8 i8 i9 i9 i9 i9 i9"
+    "i10 i10 i10 i10 i10 i11 i11 i11 i11 i11 i12 i12";
+  }
+  .furniture_ad_card{
+    transition: 0.15s;
+  }
+  .furniture_ad_card img{
+    transition: 0.15s;
+  }
+  .gallery img{
+    height: 180px;
+    transition: 0.15s transform;
+  }
+  .gallery img:hover{
+    transform: scale(1.12);
+  }
+}
